@@ -1,0 +1,14 @@
+{{!
+    The data for field colors are passed into the handlebars template through the def array. Our case
+    being the def.backcolor and def.textcolor properties. These indexes are defined in:
+    ./custom/modules/DynamicFields/templates/Fields/TemplateGooglelookupfield.php
+}}
+
+{{#if value}}
+    <div class="ellipsis_inline" data-placement="bottom" style="background:{{def.backcolor}}; color:{{def.textcolor}}">
+        {{value}}
+    </div>
+{{/if}}
+<div id="bananas"></div>
+
+
