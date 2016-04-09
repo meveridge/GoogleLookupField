@@ -5,12 +5,23 @@ For using SugarCRM Instance versions 7.5.x - 7.7.x
 ## Install
 
 - Create a Module Loadable Package from Repo
-  - If downloaded as a zip:
+  - If downloaded as a zip ( GoogleLookupField-master.zip ):
     - Extract Contents of Repo
     - Create new ZIP file with manifest.php at the root of the file
+```bash
+$ cd ~/Downloads
+$ unzip GoogleLookupField-master.zip
+$ cd GoogleLookupField-master
+$ zip ../GoogleLookupField-package.zip *
+```
   - If cloned or forked through GitHub
     - Create new ZIP file with manifest.php at the root of the file
-- Install the package via Admin > Module Loader
+```bash
+$ git clone git@github.com:meveridge/GoogleLookupField.git
+$ cd GoogleLookupField
+$ zip ../GoogleLookupField-package.zip *
+```
+- Install the GoogleLookupField-package.zip package created above via Admin > Module Loader
 - Run Repair JS Groupings from Admin > Repair
 
 ## Setup
