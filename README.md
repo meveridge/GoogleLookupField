@@ -2,6 +2,10 @@
 
 For using SugarCRM Instance versions 7.5.x - 7.7.x
 
+ Creates a Google Lookup Field Type in Sugar utilizing the Google Places API. Enables an address or place lookup as well as optinoal address field population.
+ 
+ For more information on Google's Places API, please see https://developers.google.com/places/
+
 ## Install
 
 - Create a Module Loadable Package from Repo
@@ -12,7 +16,7 @@ For using SugarCRM Instance versions 7.5.x - 7.7.x
 $ cd ~/Downloads
 $ unzip GoogleLookupField-master.zip
 $ cd GoogleLookupField-master
-$ zip ../GoogleLookupField-package.zip *
+$ zip -r -X ../GoogleLookupField-package.zip *
 ```
   - If cloned or forked through GitHub
     - Create new ZIP file with manifest.php at the root of the file
