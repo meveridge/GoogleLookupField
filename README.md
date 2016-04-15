@@ -45,3 +45,13 @@ $ zip ../GoogleLookupField-package.zip *
     - Long Names
     - Short Names
 - Add the field to the Record view
+
+#Contributing
+Everyone is welcome to be involved by creating or improving existing Sugar repairs. If you would like to contribute, please make sure to review the [CONTRIBUTOR TERMS](CONTRIBUTOR TERMS.pdf). When you update this [README](README.md), please check out the [contribution guidelines](CONTRIBUTING.md) for helpful hints and tips that will make it easier to accept your pull request.
+
+## Contributors
+
+[Mark Everidge](https://github.com/meveridge)
+
+# Licensed under Apache
+© 2016 SugarCRM Inc.  Licensed by SugarCRM under the Apache 2.0 license.
